@@ -4,6 +4,6 @@ import { useRoute } from 'vue-router'
 
 <template>
   <div>
-    <h1>Project {{ useRoute().params.id }}</h1>
+    <h1>Project {{ useRoute().params?.slug }}</h1>
   </div>
 </template>
